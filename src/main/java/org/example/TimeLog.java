@@ -1,9 +1,15 @@
 package org.example;
 
+import java.time.LocalDate;
+
 public class TimeLog {
 
+
+    // TODO: change employeeId to Employee employee
     private int employeeID;
     private int hoursWorked;
+
+    // TODO: missing date (hint: LocalDate)
 
     public int getEmployeeID() {
         return employeeID;

@@ -15,6 +15,8 @@ public class EmployeeService {
         this.timelogs = new ArrayList<>();
 
     }
+
+    // TODO: option+cmd+L for automatic reformat
         public void addEmployee(Employee employee) {
             employees.add(employee);
         }
