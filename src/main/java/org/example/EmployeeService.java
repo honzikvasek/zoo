@@ -17,17 +17,17 @@ public class EmployeeService {
     }
 
     // TODO: option+cmd+L for automatic reformat
-        public void addEmployee(Employee employee) {
-            employees.add(employee);
-        }
-
-        public void removeEmployee(Employee employee) {
-            employees.remove(employee);
-        }
-
-        public void addTimeLog(TimeLog timeLog) {
-            timelogs.add(timeLog);
-        }
-
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
     }
+
+    public void removeEmployee(Employee employee) {
+        employees.remove(employee);
+    }
+
+    public void addTimeLog(TimeLog timeLog) {
+        timelogs.add(timeLog);
+    }
+
+}
 

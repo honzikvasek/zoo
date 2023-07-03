@@ -6,31 +6,44 @@ public class TimeLog {
 
 
     // TODO: change employeeId to Employee employee
-    private int employeeID;
+    private Employee employee;
     private int hoursWorked;
+
+    private LocalDate date;
 
     // TODO: missing date (hint: LocalDate)
 
-    public int getEmployeeID() {
-        return employeeID;
+
+    public Employee getEmployee() {
+        return employee;
     }
 
-    public void setEmployeeID(int employeeID) {
-        this.employeeID = employeeID;
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
 
     public int getHoursWorked() {
         return hoursWorked;
     }
 
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
     public void setHoursWorked(int hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
 
-    public TimeLog (int employeeID, int hoursWorked){
-        this.employeeID = employeeID;
+    public TimeLog(Employee employee, int hoursWorked, LocalDate date) {
+        this.employee = employee;
         this.hoursWorked = hoursWorked;
+        this.date = date;
+    }
 
 
     }
-}
+
